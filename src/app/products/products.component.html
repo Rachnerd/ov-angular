@@ -1,0 +1,9 @@
+<ul class="products">
+  <li *ngFor="let product of products" class="product-{{product.name}}" >
+    <div class="product-name">{{product.name}}</div>
+    <div class="product-category">{{product.category}}</div>
+    <div class="product-price">{{product.name}}</div>
+    <div *ngIf="product.promo" class="product-promo">Sale</div>
+    <div *ngIf="product.inCart > 0">In cart: {{product.inCart}}</div>
+  </li>
+</ul>
