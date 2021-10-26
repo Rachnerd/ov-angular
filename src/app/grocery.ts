@@ -6,6 +6,7 @@ export interface Grocery {
   inCart: number;
 }
 export enum GroceryCat {
+  ALL = "All",
   FRUIT_VEGETABLE = "Fruits & Vegetables",
   MEAT_FISH = "Meat & Fish",
   DAIRY = "Dairy",

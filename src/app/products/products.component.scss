@@ -1,3 +1,11 @@
+:host {
+  display: block;
+}
+
+select {
+  margin: 2rem 0;
+}
+
 div.products {
   display: flex;
   gap: 2rem;
@@ -12,7 +20,6 @@ div.products > a {
   flex-direction: column;
   height: 8rem;
   width: 8rem;
-  background-color: lightcyan;
   border-radius: 0.8rem;
   padding: 1rem;
   align-items: center;

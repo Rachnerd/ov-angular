@@ -1,9 +1,14 @@
+:host {
+  display: block;
+  padding: 1rem;
+  font-family: Arial;
+}
+
 router-outlet {
   margin-left: 2rem;
 }
 
 nav > a {
-  margin: 1rem;
   background-color: lightblue;
   border-radius: 0.2rem;
   padding: 0.5rem;

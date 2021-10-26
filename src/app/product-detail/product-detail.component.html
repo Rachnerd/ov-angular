@@ -2,4 +2,5 @@
   <p>{{product.name}}</p>
   <p>{{product.category}}</p>
   <p>{{product.price | currency: 'EUR' }}</p>
+  <p *ngIf="product.promo">Sale</p>
 </div>
