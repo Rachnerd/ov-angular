@@ -1,382 +1,321 @@
 {
   "groceries": [
     {
-      "name": "tomato",
-      "category": "fruit-vegetables",
+      "name": "Tomato",
+      "category": "Fruits & Vegetables",
       "price": 0.3,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "pear",
-      "category": "fruit-vegetables",
+      "name": "Pear",
+      "category": "Fruits & Vegetables",
       "price": 0.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "apple",
-      "category": "fruit-vegetables",
+      "name": "Apple",
+      "category": "Fruits & Vegetables",
       "price": 0.25,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "zucchini",
-      "category": "fruit-vegetables",
+      "name": "Zucchini",
+      "category": "Fruits & Vegetables",
       "price": 1,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "eggplant",
-      "category": "fruit-vegetables",
+      "name": "Eggplant",
+      "category": "Fruits & Vegetables",
       "price": 1.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "broccoli",
-      "category": "fruit-vegetables",
+      "name": "Broccoli",
+      "category": "Fruits & Vegetables",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "sausage",
-      "category": "meat-fish",
+      "name": "Sausage",
+      "category": "Meat & Fish",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "shrimp",
-      "category": "meat-fish",
+      "name": "Shrimp",
+      "category": "Meat & Fish",
       "price": 1.7,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "salmon",
-      "category": "meat-fish",
+      "name": "Salmon",
+      "category": "Meat & Fish",
       "price": 2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "minced-meat",
-      "category": "meat-fish",
+      "name": "Minced meat",
+      "category": "Meat & Fish",
       "price": 1.5,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "tuna",
-      "category": "meat-fish",
+      "name": "Tuna",
+      "category": "Meat & Fish",
       "price": 2.3,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "spare-ribs",
-      "category": "meat-fish",
+      "name": "Spare Ribs",
+      "category": "Meat & Fish",
       "price": 1.6,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "gouda",
-      "category": "dairy",
+      "name": "Gouda Cheese",
+      "category": "Dairy",
       "price": 1.4,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "brie",
-      "category": "dairy",
+      "name": "Brie",
+      "category": "Dairy",
       "price": 1,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "cheddar",
-      "category": "dairy",
+      "name": "Cheddar",
+      "category": "Dairy",
       "price": 1.6,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "yogurt",
-      "category": "dairy",
+      "name": "Yogurt",
+      "category": "Dairy",
       "price": 1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "milk",
-      "category": "dairy",
+      "name": "Milk",
+      "category": "Dairy",
       "price": 0.8,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "butter",
-      "category": "dairy",
+      "name": "Butter",
+      "category": "Dairy",
       "price": 0.6,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "pepsi",
-      "category": "drinks",
+      "name": "Pepsi",
+      "category": "Drinks",
       "price": 1.4,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "sprite",
-      "category": "drinks",
+      "name": "Sprite",
+      "category": "Drinks",
       "price": 1.3,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "fanta",
-      "category": "drinks",
+      "name": "Fanta",
+      "category": "Drinks",
       "price": 1,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "orange-juice",
-      "category": "drinks",
+      "name": "Orange Juice",
+      "category": "Drinks",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "apple-juice",
-      "category": "drinks",
+      "name": "Apple Juice",
+      "category": "Drinks",
       "price": 1.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "iced-tea",
-      "category": "drinks",
+      "name": "Iced Tea",
+      "category": "Drinks",
       "price": 1.6,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "beer",
-      "category": "alcohol",
+      "name": "Beer",
+      "category": "Alcohol",
       "price": 8.5,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "red-wine",
-      "category": "alcohol",
+      "name": "Red Wine",
+      "category": "Alcohol",
       "price": 4,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "white-wine",
-      "category": "alcohol",
+      "name": "White Wine",
+      "category": "Alcohol",
       "price": 4.6,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "champagne",
-      "category": "alcohol",
+      "name": "Champagne",
+      "category": "Alcohol",
       "price": 12,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "blond-beer",
-      "category": "alcohol",
+      "name": "Blond Beer",
+      "category": "Alcohol",
       "price": 3.4,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "guinness-beer",
-      "category": "alcohol",
+      "name": "Guinness Beer",
+      "category": "Alcohol",
       "price": 3.6,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "lollipop",
-      "category": "candy",
+      "name": "Lollipop",
+      "category": "Candy",
       "price": 0.9,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "gummi-bears",
-      "category": "candy",
+      "name": "Gummi-bears",
+      "category": "Candy",
       "price": 1.4,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "chocolate",
-      "category": "candy",
+      "name": "Chocolate",
+      "category": "Candy",
       "price": 2.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "licorice",
-      "category": "candy",
+      "name": "Licorice",
+      "category": "Candy",
       "price": 1.3,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "sour-gummi",
-      "category": "candy",
-      "price": 1.6,
-      "promo": false,
-      "inCart": 0
-    },
-    {
-      "name": "butterscotch",
-      "category": "candy",
+      "name": "Butterscotch",
+      "category": "Candy",
       "price": 2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "croissant",
-      "category": "bakery",
+      "name": "Croissant",
+      "category": "Bakery",
       "price": 0.3,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "kaiser-rolls",
-      "category": "bakery",
+      "name": "Kaiser Rolls",
+      "category": "Bakery",
       "price": 1.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "whole-grain-loaf",
-      "category": "bakery",
+      "name": "Whole Grain Loaf",
+      "category": "Bakery",
       "price": 1,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "baguette",
-      "category": "bakery",
+      "name": "Baguette",
+      "category": "Bakery",
       "price": 1.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "donut",
-      "category": "bakery",
+      "name": "Donut",
+      "category": "Bakery",
       "price": 0.6,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "casino-white",
-      "category": "bakery",
+      "name": "Casino White",
+      "category": "Bakery",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "spinach",
-      "category": "freezer",
+      "name": "Spinach",
+      "category": "Freezer",
       "price": 0.7,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "smoothie-mix",
-      "category": "freezer",
+      "name": "Smoothie Mix",
+      "category": "Freezer",
       "price": 0.8,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "fries",
-      "category": "freezer",
+      "name": "French Fries",
+      "category": "Freezer",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "pizza",
-      "category": "freezer",
+      "name": "Pizza",
+      "category": "Freezer",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "ice-cream",
-      "category": "freezer",
+      "name": "Ice Cream",
+      "category": "Freezer",
       "price": 1.1,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "bitterballs",
-      "category": "freezer",
+      "name": "Bitterballs",
+      "category": "Freezer",
       "price": 0.8,
-      "promo": true,
-      "inCart": 0
+      "promo": true
     },
     {
-      "name": "aluminium-foil",
-      "category": "non-food",
+      "name": "Aluminium Foil",
+      "category": "Non Food",
       "price": 0.5,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "baking-paper",
-      "category": "non-food",
-      "price": 0.4,
-      "promo": false,
-      "inCart": 0
+      "name": "Baking Paper",
+      "category": "Non Food",
+      "price": 0.4
     },
     {
-      "name": "cling-film",
-      "category": "non-food",
+      "name": "Cling Film",
+      "category": "Non Food",
       "price": 0.45,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "garbage-bags",
-      "category": "non-food",
+      "name": "Garbage Bags",
+      "category": "Non Food",
       "price": 0.5,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "skewers",
-      "category": "non-food",
+      "name": "Skewers",
+      "category": "Non Food",
       "price": 1.2,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     },
     {
-      "name": "soap",
-      "category": "non-food",
+      "name": "Soap",
+      "category": "Non Food",
       "price": 1.55,
-      "promo": false,
-      "inCart": 0
+      "promo": false
     }
   ]
 }

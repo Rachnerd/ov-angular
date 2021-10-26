@@ -1,0 +1,66 @@
+div.products {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: unset;
+}
+
+div.products > a {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 8rem;
+  width: 8rem;
+  background-color: lightcyan;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  align-items: center;
+  box-shadow: 5px 5px 10px lightgrey;
+  font-size: 1.4rem;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+
+  &.promotion {
+    animation: borderBlink 1s step-end infinite;
+    border: red dotted 2px;
+  }
+}
+
+div.products > a:hover {
+  cursor: pointer;
+  box-shadow: -5px -5px 10px lightgrey;
+  font-weight: 900;
+}
+
+@-webkit-keyframes borderBlink {
+  from, to {
+    border-color: blue
+  }
+  25% {
+    border-color: red
+  }
+  50% {
+    border-color: orange
+  }
+  75% {
+    border-color: green
+  }
+}
+
+@keyframes borderBlink {
+  from, to {
+    border-color: blue
+  }
+  25% {
+    border-color: red
+  }
+  50% {
+    border-color: orange
+  }
+  75% {
+    border-color: green
+  }
+}

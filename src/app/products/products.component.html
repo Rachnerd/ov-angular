@@ -1,10 +1,6 @@
-<ul class="products">
-  <li *ngFor="let product of products | async" class="product-{{product.name}}" >
-    <div class="product-name">{{product.name | titlecase }}</div>
-    <div class="product-category">{{product.category | titlecase }}</div>
-    <div [class.promotion]= "product.promo" class="product-price">{{product.price | currency: 'EUR' }}</div>
-    <button class="add-product" (click)="this.adjustCart(product, 1)">+</button>
-    <div *ngIf="product.inCart > 0">In cart: {{product.inCart}}</div>
-    <button class="subtract-product" (click)="this.adjustCart(product, -1)">-</button>
-  </li>
-</ul>
+<div class="products">
+  <a *ngFor="let product of products | async" [class.promotion]= "product.promo" href="/product-detail/{{product.name}}">
+    <p class="product-name">{{product.name }}</p>
+    <p class="product-price">{{product.price | currency: 'EUR' }}</p>
+  </a>
+</div>
