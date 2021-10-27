@@ -3,8 +3,8 @@ export interface Grocery {
   price: number;
   category:GroceryCat;
   promo: boolean;
-  inCart: number;
 }
+
 export enum GroceryCat {
   ALL = "All",
   FRUIT_VEGETABLE = "Fruits & Vegetables",

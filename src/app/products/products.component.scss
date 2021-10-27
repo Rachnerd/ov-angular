@@ -8,23 +8,21 @@ select {
 
 div.products {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   width: 100%;
   flex-wrap: wrap;
-  padding: unset;
 }
 
 div.products > a {
   display: inline-flex;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 8rem;
-  width: 8rem;
+  justify-content: space-between;
+  height: 1rem;
+  width: 100%;
   border-radius: 0.8rem;
   padding: 1rem;
   align-items: center;
   box-shadow: 5px 5px 10px lightgrey;
-  font-size: 1.4rem;
+  font-size: 1rem;
   transition: all 0.5s;
   text-decoration: none;
   color: black;
