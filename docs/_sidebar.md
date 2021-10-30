@@ -5,4 +5,5 @@
     * [Resources](/home/resources)
 * Assignments
     * [Overview](/assignments/)
+    * [API](/assignments/api)
     * [Assignment 1](/assignments/assignment_1)
