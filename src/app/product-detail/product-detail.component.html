@@ -1,6 +1,6 @@
-<div *ngIf="product">
-  <p>{{product.name}}</p>
-  <p>{{product.category}}</p>
-  <p>{{product.price | currency: 'EUR' }}</p>
-  <p *ngIf="product.promo">Sale</p>
+<div id="tst-product" *ngIf="product">
+  <p id="tst-name">{{product.name}}</p>
+  <p id="tst-category">{{product.category}}</p>
+  <p id="tst-price">{{product.price | currency: 'EUR' }}</p>
+  <p id="tst-promo" *ngIf="product.promo">Sale</p>
 </div>

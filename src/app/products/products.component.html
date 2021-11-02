@@ -2,7 +2,7 @@
   <option *ngFor="let c of categories" [ngValue]="c">{{c}}</option>
 </select>
 <div class="products" *ngIf="products$ | async as products">
-  <a *ngFor="let product of products | categoryFilter: selectedValue" [ovPromotion]= "product.promo" href="/product-detail/{{product.name}}">
+  <a *ngFor="let product of products | categoryFilter: selectedValue" [ovPromotion]= "product.promo" href="/products/{{product.name}}">
     <p class="product-name">{{ product.name }}</p>
     <p class="product-price">{{ product.price | currency: 'EUR' }}</p>
   </a>

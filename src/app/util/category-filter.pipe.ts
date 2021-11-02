@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Grocery, GroceryCat } from './grocery';
+import { Grocery, GroceryCat } from '../grocery';
 
 @Pipe({
   name: 'categoryFilter'

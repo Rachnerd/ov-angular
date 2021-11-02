@@ -4,7 +4,7 @@ import { Directive, ElementRef, Input, OnInit } from '@angular/core';
   selector: '[ovPromotion]'
 })
 export class PromotionDirective implements OnInit {
-  @Input() ovPromotion?:boolean;
+  @Input() ovPromotion = false;
 
   constructor(private el: ElementRef) { }
 

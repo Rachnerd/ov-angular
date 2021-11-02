@@ -2,29 +2,24 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './products/products.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { FormsModule } from '@angular/forms';
-import { CategoryFilterPipe } from './category-filter.pipe';
-import { PromotionDirective } from './promotion.directive';
+import { ProductsModule } from './products/products.module';
+import { ProductDetailModule } from './product-detail/product-detail.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ProductsComponent,
-    ProductDetailComponent,
-    CategoryFilterPipe,
-    PromotionDirective
+    AppComponent
   ],
   imports: [
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    ProductsModule,
+    ProductDetailModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {
+}
