@@ -1,0 +1,15 @@
+<section class="product">
+  <a>
+    <ov-square-image [src]="product.image" [alt]="product.title"></ov-square-image>
+  </a>
+  <div class="info">
+    <p class="category">{{product.category}}</p>
+    <a class="title">{{product.title}}</a>
+    <ov-rating></ov-rating>
+
+    <p class="description">
+      {{product.description}}
+    </p>
+    <p class="price">{{product.price}}</p>
+  </div>
+</section>
