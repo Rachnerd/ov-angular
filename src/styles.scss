@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Global styles should be moved to components
+@import "../node_modules/reset-css/sass/_reset.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
