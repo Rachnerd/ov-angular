@@ -37,7 +37,7 @@ server.get('/products', async (request, reply) => {
 
   if (filter) {
     products = products.filter(
-      ({ name }) => name.toLowerCase().indexOf(filter.toLowerCase()) !== -1
+      ({ title }) => title.toLowerCase().indexOf(filter.toLowerCase()) !== -1
     );
   }
 

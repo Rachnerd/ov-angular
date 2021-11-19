@@ -1,9 +1,9 @@
-export interface Normalized<T extends { id: string }> {
+export interface Normalized<T extends { id: string | number }> {
   byId: { [id: string]: T };
   allIds: string[];
 }
 
-export const normalize = <T extends { id: string }>(
+export const normalize = <T extends { id: string | number }>(
   collection: T[]
 ): Normalized<T> =>
   collection.reduce(
