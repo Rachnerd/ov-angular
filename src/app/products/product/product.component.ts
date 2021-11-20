@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Product } from "../shared/product";
+import { Product } from "../../shared/product";
 
 @Component({
   selector: 'ov-product',
@@ -7,7 +7,7 @@ import { Product } from "../shared/product";
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
-  @Input() product: Product
+  @Input() product: Product;
 
   constructor() { }
 
