@@ -118,3 +118,5 @@ it('should render a square image with src and alt', () => {
 
 Resources:
 - [Component testing](https://angular.io/guide/testing-components-scenarios)
+
+[Solution](https://github.com/Rachnerd/ov-angular/compare/basic/assignment-3...basic/assignment-4)
