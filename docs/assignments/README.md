@@ -1,2 +1,2 @@
 # Assignments Overview
-@TODO: Explain assignment format + general overview of all assignments
+These assignments are based on [this presentation](https://slides.com/rachnerd/ov-angular).
