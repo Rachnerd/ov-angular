@@ -79,3 +79,5 @@ Resources:
 - [SharedModule](https://angular.io/guide/sharing-ngmodules)
 
 Your app should be working again.
+
+[Solution](https://github.com/Rachnerd/ov-angular/compare/basic/assignment-2...basic/assignment-3)
