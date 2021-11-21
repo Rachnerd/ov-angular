@@ -202,3 +202,5 @@ Resources:
 - [ViewEncapsulation](https://angular.io/guide/view-encapsulation)
 
 Your app should still render correctly.
+
+[Solution](https://github.com/Rachnerd/ov-angular/compare/master...basic/assignment-2)

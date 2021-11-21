@@ -1,4 +1,4 @@
-# Assignment 4 Practice
+# Assignment 4 Practice (+ homework)
 If you want to catch up:
 
 ```
@@ -98,3 +98,5 @@ explains testing with `TestBed` in detail.
 
 - [Utility types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 explains the built-in TypeScript utility types.
+
+[Solution](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
