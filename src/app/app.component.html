@@ -1,1 +1,2 @@
-<ov-products></ov-products>
+<ov-search (search)="onSearch($event)"></ov-search>
+<ov-products [products]="products | productsFilter: query"></ov-products>
