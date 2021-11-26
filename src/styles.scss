@@ -9,3 +9,10 @@ body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/**
+  This class is added by RatingComponent on runtime so will not properly handle ViewEncapsulation.
+ */
+.star {
+  color: orange;
+}
