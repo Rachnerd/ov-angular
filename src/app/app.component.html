@@ -1,5 +1,14 @@
 <nav>
-  <a routerLink="/">Home</a>
-  <a routerLink="/products">Products</a>
+  <a routerLink="/"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact:true}">
+    Home
+  </a>
+  <a routerLink="/products"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact:true}">
+    Products
+  </a>
 </nav>
+
 <router-outlet></router-outlet>
