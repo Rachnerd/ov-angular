@@ -157,3 +157,5 @@ You should now be able to navigate between pages.
 
 - Check f12 Network tab to see lazy loading in action when navigation from `home` to `products` (only the first time). You should see
 `ProductsOverviewModule` load in as JavaScript.
+
+[Solution](https://github.com/Rachnerd/ov-angular/compare/basic/assignment-5...basic/assignment-6)
