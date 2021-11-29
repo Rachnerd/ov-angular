@@ -99,4 +99,4 @@ explains testing with `TestBed` in detail.
 - [Utility types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 explains the built-in TypeScript utility types.
 
-[Solution](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Solution](https://github.com/Rachnerd/ov-angular/compare/basic/assignment-4...basic/assignment-5)
