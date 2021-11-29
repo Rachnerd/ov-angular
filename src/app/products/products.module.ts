@@ -4,7 +4,7 @@ import { ProductsComponent } from "./products.component";
 import { ProductComponent } from "./product/product.component";
 import { SharedModule } from "../shared/shared.module";
 import { SearchComponent } from './search/search.component';
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { ProductsFilterPipe } from './shared/products-filter.pipe';
 
 @NgModule({
@@ -12,7 +12,8 @@ import { ProductsFilterPipe } from './shared/products-filter.pipe';
   imports: [
     CommonModule,
     SharedModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [ProductsComponent, SearchComponent, ProductsFilterPipe]
 })

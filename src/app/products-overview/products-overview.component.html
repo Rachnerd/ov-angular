@@ -1,2 +1,7 @@
 <ov-search (search)="onSearch($event)"></ov-search>
-<ov-products [products]="products | productsFilter: query"></ov-products>
+<ng-container *ngIf="products$ | async as products else loading">
+  <ov-products [products]="products"></ov-products>
+</ng-container>
+<ng-template #loading>
+  Loading...
+</ng-template>
