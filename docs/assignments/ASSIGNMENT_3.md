@@ -49,7 +49,7 @@ createProductMock({ id: 2, title: 'foo' }); // default + custom id + custom titl
 npm i --save-dev ng-mocks
 ```
 
-- Study the following test and copy it to `products/products.spec.ts`:
+- Study the following test and copy it to `products/products.component.spec.ts`:
 
 ```typescript
 let component: ProductsComponent;
