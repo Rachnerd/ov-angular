@@ -98,6 +98,12 @@ You should see `home works!` on screen.
 }
 ```
 
+In order to lazy load the products overview, all direct references to its code should be removed.
+
+- Remove `ProductsOverviewModule` from `AppModule`'s imports and file import.
+
+Referencing the lazy loaded module on itself is not enough. The lazy loaded module requires a route config so the router knows which component to render.
+
 - Add a child route to `ProductsOverviewModule` and match root since `AppModule` already assigned a route.
 
 ```typescript
